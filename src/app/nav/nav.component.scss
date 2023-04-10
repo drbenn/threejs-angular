@@ -1,0 +1,44 @@
+:host {
+  display:block;
+  // background-color: rgb(42, 42, 42);
+  background: linear-gradient(90deg, #16222A 0%, #3A6073 100%);
+  color: white;
+  padding: 1rem ;
+}
+
+nav {
+ line-height: 150%;
+ font-size: 0.9rem;
+ font-weight: 400;
+}
+
+.app-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  text-shadow: 4px 4px 4px rgba(187, 255, 214, 0.187);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.5rem;
+  transition: 100ms;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(77, 255, 77);
+  transition: 100ms;
+  cursor: default;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
